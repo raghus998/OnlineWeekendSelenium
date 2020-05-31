@@ -1,0 +1,48 @@
+css selector ---> facebook or gamil 
+partially dynamic elements (text)---> actime version
+partially dynamic elements (text)--->facebook text its free...
+special characters --->&nbsp(for space)   &#039(for (') 
+idependentn dependent--->selenium download page ,.. language
+actions...>home.redbirckheath.com-----move to element.....//a[.='redbrick heath']/../..//a[.='solutions'].. to  click on sln
+           java script---> double click()
+            jqueryui/resoucres/demo.com---->drag and drop()
+             actime time appn ....> context click();
+             actitime appn ....>composite click()
+              js code ---->double click()
+select...>collection n html pages
+frames....>Jqueryui/droppable .... html pages
+javasciprt......>js code and selenium download page
+pop ups.....>
+java script...>alert pop up...>www.irctc.co.in/eticketing/pageunderconstruction.jsf"
+             ..>confirm n prompt ....>js n html codes
+ 
+hidden division pop up ...>http://www.cleartrip.com/  ...>//span[.='May']/../../..//a[.='22']
+                       ...? acti time ..>task..>select any task..>delete..>cancel
+file upload pop up........>(type of elel is file ..senkeys) "www.actitime.com/contact-support"  
+                           and naukri.com..upload resume
+file download pop up .....>selenium download page 
+                              actitime..>reports..>monthly team performance.. >export to csv..> download
+child browser pop up ...>"hhtps://www.naukri.com
+window pop up ...> auto it ..>create cal.exe file 
+pom class--- actime login, facebook login, email login
+testng... all annnoations, batch, parallel, gropu exe , verification
+frame work ... >hybrid ....>actitime 
+
+...........................................................................................................
+xpaths:
+
+//a[contains(.,'Google')]...special character
+//h1[normalize-space(text())='product list'].... normalize...
+//a[normalize-space(text())='Google']... space ////NOT WORKING
+//div[contains(text(),'free and always will be')]...facebook partial text 
+
+//td[.='Java']/..//a[.='Download']
+//td[.='Java']/../td[4]/a
+//td[.='Java']/following-sibling::td[3]/a .... selenium dowmload for dynamic elements...independent N dependent 
+
+...........................................................................
+multiple elements :
+//a
+//a[2]
+(//a)[2]
+(//a)[last()]

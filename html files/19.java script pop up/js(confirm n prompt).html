@@ -1,0 +1,14 @@
+<script>
+function confirmationPopUp()
+{
+	confirm('Break up??');
+}
+function promptPopUp()
+{
+	var v = prompt('Enter username:');
+	document.getElementById('demo').innerHTML = "Welcome "+v;
+}
+</script>
+<p id="demo"></p>
+<input type="button" value="Confirm" id="c" onclick="confirmationPopUp()">
+<input type="button" value="Prompt" id="p" onclick="promptPopUp()">
