@@ -23,7 +23,7 @@ public class Demo
 		String pageSrc = driver.getPageSource();
 		System.out.println(pageSrc);
 		Thread.sleep(3000);
-		driver.close();
+		//driver.close();
 
 }
 	}
