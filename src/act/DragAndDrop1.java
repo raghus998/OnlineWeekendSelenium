@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class DragAndDrop 
+public class DragAndDrop1 
 {
 	static {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
@@ -30,12 +30,6 @@ public class DragAndDrop
 		WebElement droppable = driver.findElement(By.id("droppable"));
 		
 		//TO perform Drag and Drop
-		act.dragAndDrop(draggable, droppable).perform();
-		Thread.sleep(5000);
-		driver.close();
-		
-		
-	   
-
+		act.clickAndHold(draggable).moveToElement(droppable).release().perform();
 }
 }
