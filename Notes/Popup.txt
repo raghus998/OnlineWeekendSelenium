@@ -1,0 +1,39 @@
+Alerts(Popups) 
+1)javaScriptPopUP :: Alert(I)
+2)HiddenDivision/Clander : 
+3)File download
+4)File Upload : sendkeys() only if type of ele is file
+5)Child browser
+6)Windows
+
+1)JavaScriptPopup
+1)Cannt move
+2)cannt inspect
+3)color will be black and White
+
+Diffrent types of popups
+1)Alert : Ok btn
+2)Confirm : OK,Cancel btn
+3)prompt : OK,Cancel btn ,Input field 
+
+We can handle JavaScript Popup by using Alert(I)
+by switching driver object to popup
+
+Alert(I)
+1)getText() : string
+2)accept() :  to click on OK btn 
+3)dismiss() : to click on Cancel Btn	  	
+4)Sendkeys() : to enter text in input filed
+
+
+
+
+
+
+
+
+
+
+
+
+
