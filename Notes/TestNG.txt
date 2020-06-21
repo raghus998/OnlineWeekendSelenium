@@ -1,0 +1,48 @@
+TestNG : Unit Testing FrameWork 
+
+In Automation the script which is not having verfication code then that script is considerd as INVALID
+
+1 regression = 1000 TC 
+
+Why TestNG?
+1)Batch Execution 
+2)Group Execution
+3)Verification
+4)Parallel Execution
+5)Report Genaration
+
+
+3 Rules for TestNG
+1.Should not use main method : @Test()
+2.Default Package is not allowed : User defined Package
+3. Should not use sysout(); : Reporter.log();
+
+Batch execution is done by using TestNG.xml file
+TestNG.xml : contains all test methods or Test Classes  which as to execute at a time
+TestNG.xml = TestNG Suite
+
+Can we have multiple Test() is single Class?
+Yes
+if yes the wt is order of execution?
+Accroding to alphabetical order
+
+
+How to execute in required order?
+by using priority option
+
+priority : is used to execute Test() in required Order(Has to be int,final,float values r not allowed)
+dependsOnMethods : to execute Test() on sucuess of another Test()
+enabled = false : to remove from Execuution
+invocationCount : to execute  same Test() for  multiple Times (Has to be int,-ve float values r not allowed)
+
+
+
+
+
+
+
+
+
+
+
+

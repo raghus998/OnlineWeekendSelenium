@@ -1,10 +1,10 @@
 Alerts(Popups) 
 1)javaScriptPopUP :: Alert(I)
 2)HiddenDivision/Clander : 
-3)File download
+3)File download : Robot Class
 4)File Upload : sendkeys() only if type of ele is file
 5)Child browser
-6)Windows
+6)Windows : Robot Class ot autoIT tool
 
 1)JavaScriptPopup
 1)Cannt move
@@ -25,7 +25,9 @@ Alert(I)
 3)dismiss() : to click on Cancel Btn	  	
 4)Sendkeys() : to enter text in input filed
 
-
+5)Child Browser popup
+1)getWindowHandle() : String : Address of parent browser
+2)getWindowHandles() : Set<String> : address of all browser(Child+Parent)
 
 
 

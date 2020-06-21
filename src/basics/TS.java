@@ -19,6 +19,7 @@ public class TS
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
+		
 		//Upcasting the driver object to TakeScreenshot(I)
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		
