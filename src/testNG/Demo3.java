@@ -5,21 +5,21 @@ import org.testng.annotations.Test;
 
 public class Demo3 {
 	@Test
-	public void UserCreate()
+	public void testD()
 	{
-		Reporter.log("User Created",true);
+		Reporter.log("Hi",true);
 	}
 	
 	@Test
-	public void UserEdit()
+	public void testE()
 	{
-		Reporter.log("User Edited",true);
+		Reporter.log("Bye",true);
 	}
 	
 	@Test
-	public void UserDelete()
+	public void testA()
 	{
-		Reporter.log("User Deleted",true);
+		Reporter.log("GN",true);
 	}
 
 }

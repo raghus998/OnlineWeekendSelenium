@@ -33,7 +33,7 @@ public class WindowsPop {
 		//To Click on Save btn
 		r.keyPress(KeyEvent.VK_ENTER);
 		r.keyRelease(KeyEvent.VK_ENTER);
-		//driver.close();
+		driver.close();
 		
 }
 }

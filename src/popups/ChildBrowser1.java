@@ -18,7 +18,7 @@ public class ChildBrowser1 {
 		Thread.sleep(3000);
 		
 		//driver.close();
-		//driver.quit();
+		driver.quit();
 
 }
 }

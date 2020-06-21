@@ -34,6 +34,16 @@ public class Demo
 		String data = cell.getStringCellValue();
 		System.out.println(data);
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

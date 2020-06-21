@@ -3,8 +3,7 @@ package testNG;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class Demo7 
-{
+public class Demo7 {
 	 
 		@Test(priority = 1)
 		public void UserCreate()
@@ -12,7 +11,7 @@ public class Demo7
 			Reporter.log("User Created",true);
 		}
 		
-		@Test(priority = 2,enabled = false)
+		@Test(priority = 2)
 		public void UserEdit()
 		{
 			Reporter.log("User Edited",true);

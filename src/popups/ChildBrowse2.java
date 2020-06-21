@@ -30,7 +30,6 @@ public class ChildBrowse2 {
 			System.out.println(add);
 			
 		}
-		driver.quit();
 
 }
 }

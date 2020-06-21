@@ -34,7 +34,7 @@ public class FileDownload {
 		r.keyPress(KeyEvent.VK_ENTER);
 		r.keyRelease(KeyEvent.VK_ENTER);
 		Thread.sleep(3000);
-		//driver.close();
+		driver.close();
 		
 
 }

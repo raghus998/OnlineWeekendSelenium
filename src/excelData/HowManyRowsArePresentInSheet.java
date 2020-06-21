@@ -24,8 +24,6 @@ public class HowManyRowsArePresentInSheet {
 		int rowcount = sh.getLastRowNum();
 		System.out.println(rowcount);
 		
-		//getLastRowNum() is returns index value of Rows
-		
 
 }
 }

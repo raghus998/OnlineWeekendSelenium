@@ -26,7 +26,6 @@ public class CloseTheAllBrowserWithoutUsingQuit {
 			//To switch to each browser
 			driver.switchTo().window(add);
 			driver.close();
-			Thread.sleep(2000);
 		}
 }
 }

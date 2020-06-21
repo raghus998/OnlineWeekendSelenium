@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class Demo4 
 {
 	 final int p = 1;
-	@Test(priority = p)
+	@Test(priority =p)
 	public void UserCreate()
 	{
 		Reporter.log("User Created",true);

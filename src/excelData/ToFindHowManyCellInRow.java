@@ -28,8 +28,6 @@ public class ToFindHowManyCellInRow {
 		short cellcount = row.getLastCellNum();
 		System.out.println(cellcount);
 		
-		//getLastCellNum() will return count of cell
-		
 
 }
 }
