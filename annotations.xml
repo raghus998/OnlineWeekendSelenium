@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testNG.Demo"/>
-      <class name="testNG.Demo1"/>
+      <class name="testng1.Demo1"/>
+      <class name="testng1.Demo2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

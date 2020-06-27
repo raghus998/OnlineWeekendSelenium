@@ -1,0 +1,34 @@
+package testng2;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class Demo3 {
+	
+	static
+	{
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+	}
+	@Test
+	public void testA()
+	{
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.get("https://demo.actitime.com/login.do");
+		WebElement loginBtn = driver.findElement(By.id("loginButton"));
+		boolean res = loginBtn.isEnabled();
+		
+		//To verify the TestClass o/p or Verification of Expected O/P
+		Assert.assertTrue(res);
+		
+		driver.close();
+
+}
+}

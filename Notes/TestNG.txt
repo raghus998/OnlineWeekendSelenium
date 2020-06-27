@@ -34,9 +34,26 @@ priority : is used to execute Test() in required Order(Has to be int,final,float
 dependsOnMethods : to execute Test() on sucuess of another Test()
 enabled = false : to remove from Execuution
 invocationCount : to execute  same Test() for  multiple Times (Has to be int,-ve float values r not allowed)
+groups = to group the test methods
+
+TestNG annotations
+1)Before Method     2)After Method
+3)Before Class	    4)After Class
+5)Before Test	    6)After Test
+7)Before Suite	    8)After Suite
 
 
+To do verfiaction in TestNG we have Assert Class
+TestNG assertions Methods
+1)assertEquals()        2)assertNotEquals()
+3)assertTrue()		4)assertFalse()
+5)assertNull		6)assertNotNull()
+7)assertSame()		8)assertNotSame()
+9)fail()  	
 
+
+Assert class method are Static and Overloaded Methods
+SoftAssert class  method are non_Static and Overloaded Methods
 
 
 
