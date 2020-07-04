@@ -1,1 +1,19 @@
- org.openqa.selenium.StaleElementReferenceException : 
+ org.openqa.selenium.StaleElementReferenceException: can over come by using POM class[Page Object Modal] 
+
+In Selenium project we will create 2 types of classes
+Test class : Automation script  : Manual Testcases converted to Automation Script
+ValidLoginLogoutTest
+POM class : LogInPage
+
+
+3 steps in creating POM class:
+1)Declaring WebElement
+2)initilization of webelement through Constrctor	
+3)Utlization through public method
+
+1)Declaring WebElement
+@FindBy(Locator ="Loctor Value")
+private WebElement webelementname;
+
+2)initilization of webelement through Constrctor
+PageFactory.initElements(driver, this);

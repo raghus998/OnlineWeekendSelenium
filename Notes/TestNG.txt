@@ -56,7 +56,12 @@ Assert class method are Static and Overloaded Methods
 SoftAssert class  method are non_Static and Overloaded Methods
 
 
-
+ITestResult : to get the name and status of test method
+1) to get name of test method : getName()
+2)to get the status of test method : getStatus()
+ if status is 1 means Test method is pass
+ if status is 2 means Test method is fail
+ 
 
 
 
