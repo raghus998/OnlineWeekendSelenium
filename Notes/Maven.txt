@@ -1,0 +1,6 @@
+Maven Project : 
+Group ID : Org name
+Artifact ID : Project Name
+
+No need to add Jar file 
+Instaed of jar file we have to add the dependency

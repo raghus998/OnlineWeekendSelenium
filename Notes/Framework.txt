@@ -1,0 +1,60 @@
+FrameWork : 
+Types : 
+1)KeyDriven FW 
+2)Data Driven FW
+3)Method Driven FW
+4)Hybrid FW 
+5)BDD FW(Cucumber)
+6)Robot FW
+
+Hybrid FW (Method Driven FW  + Data Driven FW)
+
+
+3 Stages for Framework : 
+1) FrameWork Design
+2) FrameWork Implementation
+3) FrameWork  Execution
+
+
+1)FrameWork Design
+Here we have to list the all the requried softwares : like JDk,Ecplise,Browser,TestNG
+Also Files like : Test Data File,Driver EXE files
+Here AA will Write reuseabilty Codes
+We have creat Project Strcture in such way that it should standard and understandle to everyone
+Here will create 3 Package
+1)genaric : it conatians genaric codes
+2)pages : it conatins all POM classes
+3)test : it contains all Test Classes
+
+to open browser : 3 lines
+to close browseer : 1 line
+to take screenshot : 5 lines 
+3+1+5 = 9 lines 
+100 Test Class : 900 lines 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
